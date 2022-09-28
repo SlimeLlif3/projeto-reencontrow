@@ -222,7 +222,7 @@ footer h3 {
 }
 
 @media screen and (max-width: 924px) {
-    body{
+    body {
         width: 100%;
         height: auto;
     }
@@ -235,7 +235,8 @@ footer h3 {
         font-size: 35px;
         text-align: center;
     }
-    .area-title a{
+
+    .area-title a {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -257,7 +258,16 @@ footer h3 {
     .image2 {
         display: none;
     }
+}
 
+@media screen and (max-width: 416px) {
+    body {
+        overflow-x: hidden;
+    }
 
-
+    .form form {
+        display: flex;
+        justify-content: center;
+        width: 380px;
+    }
 }
